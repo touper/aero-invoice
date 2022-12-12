@@ -1,0 +1,36 @@
+{
+    "name": "aero-invoice/aero-invoice",
+    "description": "航天金税发票通信",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ming Run",
+            "email": "50857500@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AeroInvoice\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "provider": [
+                "AeroInvoice\\AeroInvoiceServiceProvider"
+            ]
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.cloud.tencent.com/composer/"
+        }
+    }
+}
