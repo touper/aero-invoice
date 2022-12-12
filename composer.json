@@ -1,7 +1,7 @@
 {
     "name": "aero-invoice/aero-invoice",
     "description": "航天金税发票通信",
-    "type": "library",
+    "keywords": [ "laravel" ],
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,6 @@
             "email": "50857500@qq.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2",
         "guzzlehttp/guzzle": "^6.3",
@@ -25,12 +24,6 @@
             "provider": [
                 "AeroInvoice\\AeroInvoiceServiceProvider"
             ]
-        }
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://mirrors.cloud.tencent.com/composer/"
         }
     }
 }
