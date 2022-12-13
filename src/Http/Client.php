@@ -1,8 +1,8 @@
 <?php
 
-namespace AeroInvoice\Http;
+namespace Mingrun\AeroInvoice\Http;
 
-use AeroInvoice\ClientInterface;
+use Mingrun\AeroInvoice\ClientInterface;
 use GuzzleHttp\Client as HttpClient;
 
 class Client implements ClientInterface

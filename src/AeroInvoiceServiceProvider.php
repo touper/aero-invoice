@@ -1,17 +1,21 @@
 <?php
 
 
-namespace AeroInvoice;
+namespace Mingrun\AeroInvoice;
 
 use Illuminate\Support\ServiceProvider;
-use AeroInvoice\Http\HttpRequest;
 
 class AeroInvoiceServiceProvider extends ServiceProvider
 {
-    public function boot(): void
+    /**
+     * boot
+     *
+     * @return void
+     */
+    public function boot()
     {
-        $this->publishes([
-            __DIR__ . '/../config/aero-invoice.php' => config_path('aero-invoice.php')
-        ], 'config');
+        $source = real_path(__DIR__ . '/../config/aero-invoice.php');
+
+        $this->publishes([$source => config_path('aero-invoice.php')]);
     }
 }

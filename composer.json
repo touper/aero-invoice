@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AeroInvoice\\": "src/"
+            "Mingrun\\AeroInvoice\\": "src/"
         }
     },
     "extra": {
         "laravel": {
-            "provider": [
-                "AeroInvoice\\AeroInvoiceServiceProvider"
+            "providers": [
+                "Mingrun\\AeroInvoice\\AeroInvoiceServiceProvider"
             ]
         }
     }
