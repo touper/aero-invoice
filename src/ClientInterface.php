@@ -1,5 +1,5 @@
 <?php
-namespace AeroInvoice;
+namespace Mingrun\AeroInvoice;
 
 interface ClientInterface
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AeroInvoice;
+namespace Mingrun\AeroInvoice;
 
 
 use Illuminate\Support\Str;
@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 /**
  * Class Factory
  *
- * @method static \AeroInvoice\Http\Client http(array $config)
+ * @method static \Mingrun\AeroInvoice\Http\Client http(array $config)
  */
 class Factory
 {
